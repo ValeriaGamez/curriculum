@@ -6,9 +6,11 @@ import AuthLinks from '../AuthLinks/AuthLinks'
 const Navbar = () => {
   return (
     <div className={styles.container}>
-        <div>Name of Blog</div>
+        <div className={styles.logo}>Blog</div>
+        <div className={styles.links}>
         <ThemeToggle />
         <AuthLinks />
+        </div>
     </div>
   )
 }
